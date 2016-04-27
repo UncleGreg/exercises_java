@@ -11,12 +11,7 @@
 					if(number == 1){
 						break;
 					}
-		}
-		if(x == 0){
-			System.out.println("true");
-		}else {
-			System.out.println("false");
-		}
-		
+			System.out.println(x == 0);
+			
 	}
 }

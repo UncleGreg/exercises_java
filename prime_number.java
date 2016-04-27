@@ -12,11 +12,8 @@ public class Prime {
 	}
 
 	public static void main(String[] args) {
-		if(Prime.prime(71)){
-			System.out.println("true");
-		}else{
-			System.out.println("false");
-		}
+		
+			System.out.println(Prime.prime(71));
 		
 	}
 }
