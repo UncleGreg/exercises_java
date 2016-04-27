@@ -16,10 +16,7 @@ public class armstrong {
 		
 		int finalNumber = a*a*a + b*b*b + c*c*c;
 		
-		if(finalNumber == originalNumber){
-			System.out.println("true");
-		}else{
-			System.out.println(false);
-		}
+		System.out.println(finalNumber == originalNumber);
+	
 	}
 }

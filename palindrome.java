@@ -15,9 +15,7 @@ public class palindrome {
 			reverse = reverse * 10 + x;
 			number = number / 10;						
 		}
-			if(originalNumber == reverse){
-				System.out.println("true");
-			}else{
-				System.out.println("false");
-			}
-	
+			
+				System.out.println(originalNumber == reverse);
+		}	
+	}
